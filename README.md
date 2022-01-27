@@ -25,5 +25,18 @@ Create env in a specific path instead of conda
 If you can't find conda .. then add anaconda scripts path in environment varialbes.
 
 C:\Users\umasa\anaconda3
+
 C:\Users\umasa\anaconda3\Scripts
+
+```
+ Fetching package metadata ...
+    CondaHTTPError: HTTP 000 CONNECTION FAILED for url <https://conda.anaconda.org/a
+    naconda/win-64/repodata.json>
+    Elapsed: -
+    
+    An HTTP error occurred when trying to retrieve this URL.
+    HTTP errors are often intermittent, and a simple retry will get you on your way.
+    
+    https://stackoverflow.com/questions/50125472/issues-with-installing-python-libraries-on-windows-condahttperror-http-000-co
+```
 
