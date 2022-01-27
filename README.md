@@ -20,3 +20,10 @@ Create env in a specific path instead of conda
 
     conda create --prefix /tmp/test-env python=2.7
     Will create the environment named /tmp/test-env which resides in /tmp/ instead of the default .conda.
+    
+    
+If you can't find conda .. then add anaconda scripts path in environment varialbes.
+
+C:\Users\umasa\anaconda3
+C:\Users\umasa\anaconda3\Scripts
+
