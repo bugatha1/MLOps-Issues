@@ -22,11 +22,13 @@ Create env in a specific path instead of conda
     Will create the environment named /tmp/test-env which resides in /tmp/ instead of the default .conda.
     
     
+``` 
 If you can't find conda .. then add anaconda scripts path in environment varialbes.
 
 C:\Users\umasa\anaconda3
 
 C:\Users\umasa\anaconda3\Scripts
+```
 
 ```
  Fetching package metadata ...
@@ -38,5 +40,11 @@ C:\Users\umasa\anaconda3\Scripts
     HTTP errors are often intermittent, and a simple retry will get you on your way.
     
     https://stackoverflow.com/questions/50125472/issues-with-installing-python-libraries-on-windows-condahttperror-http-000-co
+```
+
+```
+source base activate before conda env activate
+
+source activate base
 ```
 
