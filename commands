@@ -1,0 +1,7 @@
+conda create -n envname -y
+condata activate envname
+
+==============================
+
+python3 -m venv ~/.projectname
+source ~/.projectname/bin/activate
