@@ -22,4 +22,7 @@ https://askubuntu.com/questions/404424/how-do-i-restore-bashrc-to-its-default
 /bin/cp /etc/skel/.bashrc ~/ ( replace with fresh copy
 
 =========================================================
-
+create env in aws cloud shell 
+python3 -m venv ~/.venv
+source ~/.venv/bin/activate
+===============================================================
