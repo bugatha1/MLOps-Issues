@@ -15,5 +15,7 @@ pip3 install --upgrade pip
 There exist backup copies of .bashrc, .profile etc. in /etc/skel/. 
 So one could replace a corrupt .bashrc simply by overwitting from there.
 
+https://askubuntu.com/questions/404424/how-do-i-restore-bashrc-to-its-default
+
 =========================================================
 
