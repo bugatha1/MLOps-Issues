@@ -17,5 +17,9 @@ So one could replace a corrupt .bashrc simply by overwitting from there.
 
 https://askubuntu.com/questions/404424/how-do-i-restore-bashrc-to-its-default
 
+/bin/cp ~/.bashrc ~/my_bashrc  (to take backup of the corrupted bashrc file)
+
+/bin/cp /etc/skel/.bashrc ~/ ( replace with fresh copy
+
 =========================================================
 
