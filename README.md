@@ -48,3 +48,5 @@ source base activate before conda env activate
 source activate base
 ```
 
+
+https://github.com/lpatruno/sagemaker-course
