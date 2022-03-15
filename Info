@@ -1,0 +1,5 @@
+
+Experiment contains Trials .. Trials contain trialcomponents.
+Trial is execution of workflow - in model selection, we can check with XGBoost vs Random forest vs logistic regression (for each of this we need Trial.)
+Trialcomponents are individual activity in the workflow (trialcomponent is a stage in the trial). It refers in preprocessing step ..like imputing, missig values
+and normalizing data or whole preproessing step.
