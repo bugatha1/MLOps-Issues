@@ -3,3 +3,18 @@ Experiment contains Trials .. Trials contain trialcomponents.
 Trial is execution of workflow - in model selection, we can check with XGBoost vs Random forest vs logistic regression (for each of this we need Trial.)
 Trialcomponents are individual activity in the workflow (trialcomponent is a stage in the trial). It refers in preprocessing step ..like imputing, missig values
 and normalizing data or whole preproessing step.
+
+==================================
+
+Taking care of missing data
+# missing data filled with average/mean value
+
+from sklearn.impute import SimpleImputer
+imputer = SimpleImputer(missing_values=np.nan, strategy='mean')
+imputer.fit(X[:, 1:3])
+X[:, 1:3] = imputer.transform(X[:, 1:3])
+print(X)
+
+=========================================================
+
+
