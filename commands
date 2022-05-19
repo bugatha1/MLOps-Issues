@@ -26,3 +26,9 @@ create env in aws cloud shell
 python3 -m venv ~/.venv
 source ~/.venv/bin/activate
 ===============================================================
+
+get aws userid, accountid and arn use below command
+
+aws sts get-caller-identity
+
+==================================================
