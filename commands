@@ -32,3 +32,8 @@ get aws userid, accountid and arn use below command
 aws sts get-caller-identity
 
 ==================================================
+
+install virtual environment and activate in windows cmd prompt
+
+https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/
+========================================================================================================
