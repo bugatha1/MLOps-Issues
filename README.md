@@ -1,5 +1,6 @@
-# VMWare
 
+ceate conda environment and add to sagemaker notebook
+https://medium.com/@nrk25693/how-to-add-your-conda-environment-to-your-jupyter-notebook-in-just-4-steps-abeab8b8d084
 
 
 SSH need to enable in server machine also.
